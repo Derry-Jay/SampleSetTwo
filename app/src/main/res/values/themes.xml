@@ -3,21 +3,9 @@
     <style name="Base.Theme.Layoutproject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-
-        <item name="bottomSheetDialogTheme">@style/BottomSheetTheme</item>
     </style>
 
     <style name="Theme.Layoutproject" parent="Base.Theme.Layoutproject" />
-
-
-
-<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">-->
-
-<!--        <item name="android:background">@color/background</item>-->
-<!--        -->
-
-
-<!--    </style>-->
 
 
     <style name="BottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
@@ -26,13 +14,5 @@
         <item name="bottomSheetDialogTheme">@style/BottomSheetStyle</item>
 
     </style>
-
-    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
-
-        <item name="bottomSheetDialogTheme">@style/Theme.Design.Light.BottomSheetDialog</item>
-        <item name="android:background">@drawable/dialog_box</item>
-    </style>
-
-
 
 </resources>

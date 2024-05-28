@@ -2,4 +2,6 @@
 <resources>
     <dimen name="heading">19dp</dimen>
     <dimen name="line_spacing">10dp</dimen>
+    <dimen name="activity_vertical_margin" value="16dp" />
+    <dimen name="activity_horizontal_margin" value="16dp" />
 </resources>
