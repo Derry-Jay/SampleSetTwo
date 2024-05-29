@@ -12,7 +12,7 @@ public class HandleXML {
     private String title = "title";
     private String link = "link";
     private String description = "description";
-    private String urlString;
+    private final String urlString;
     private XmlPullParserFactory xmlFactoryObject;
 
     public HandleXML(String url) {

@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Layoutproject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
@@ -18,18 +18,16 @@
 
         <item name="bottomSheetDialogTheme">@style/Theme.Design.BottomSheetDialog</item>
         <item name="android:background">@drawable/dialog_box</item>
-<!--        <item name="android:textColor">@color/heading</item>-->
+        <!--        <item name="android:textColor">@color/heading</item>-->
 
 
     </style>
 
 
-
-
 </resources>
 
 
-<!--<style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">-->
-<!--<item name="android:background">@color/background</item>-->
-<!--</style>-->
-<!--<item name="android:background">@android:color/transparent</item>-->
+    <!--<style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">-->
+    <!--<item name="android:background">@color/background</item>-->
+    <!--</style>-->
+    <!--<item name="android:background">@android:color/transparent</item>-->

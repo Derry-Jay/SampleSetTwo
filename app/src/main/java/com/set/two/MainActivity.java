@@ -1,13 +1,9 @@
 package com.set.two;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
-
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 //import com.google.android.material.bottomsheet.BottomSheetDialog;
 
@@ -24,18 +20,18 @@ import android.widget.TextView;
 //import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class MainActivity extends AppCompatActivity {
-    TextView t1,t2;
+    TextView t1, t2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         t1 = findViewById(R.id.text1);
-                t1.setOnClickListener(view -> {
+        t1.setOnClickListener(view -> {
 
 
-
-                });
-                t2.setOnClickListener(view -> {
-                });
+        });
+        t2.setOnClickListener(view -> {
+        });
     }
 }

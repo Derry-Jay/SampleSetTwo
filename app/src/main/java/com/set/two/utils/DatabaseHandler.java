@@ -53,15 +53,14 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_PH_NO, contact.getPhoneNumber());// Contact Phone
         if (cursor.moveToFirst()) {
             num = db.update(TABLE_CONTACTS, values, KEY_PH_NO + "= ?", new String[]{String.valueOf(contact.getPhoneNumber())});
-        }
-        else {
+        } else {
             num = db.insert(TABLE_CONTACTS, null, values);
         }
         db.close();
         return num;
     }
 
-// Adding new contact
+    // Adding new contact
     public long addContact(Contact contact) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
