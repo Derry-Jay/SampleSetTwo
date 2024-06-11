@@ -18,7 +18,7 @@ public class SMSReceiver extends BroadcastReceiver {
             msgs = new SmsMessage[pdus.length];
             for (int i = 0; i < msgs.length; i++) {
                 msgs[i] = SmsMessage.createFromPdu((byte[]) pdus[i], "3gpp2");
-                str = str.append("SMS from ").append(msgs[i].getOriginatingAddress()).append(": ").append(msgs[i].getMessageBody().toString()).append("\n");
+                str = str.append("SMS from ").append(msgs[i].getOriginatingAddress()).append(": ").append(msgs[i].getMessageBody()).append("\n");
             }
         }
     }

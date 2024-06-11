@@ -33,7 +33,7 @@ public class Contact implements Parcelable, Serializable {
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return _name.hashCode();
     }
 
     @Override
